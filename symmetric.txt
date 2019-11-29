@@ -1,0 +1,9 @@
+echo "hello world" > lol.txt
+for encryption:
+openssl enc -aes-256-cbc -in lol.txt -out lol.bat
+
+for decryption
+openssl enc -aes-256-cbc -d -in lol.bat > wtf.txt
+
+
+
